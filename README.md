@@ -11,11 +11,18 @@
 ## Технологический стек:
 Spring Boot, Spring Data JPA, Hibernate, Liquibase, PostgreSQL, Spring MVC, Spring Test, Lombok, 
 
+
+## Требования
+1. Java JDK 17+
+2. Maven
+3. PostgreSQL
+
 ## Запуск проекта
 1. Склонировать репозиторий: `git clone https://github.com/anovami/Product_shop.git`
 2. `cd Product_shop`
 3. Создать базу данных PostgreSQL и укажите параметры подключения в src/main/resources/application.properties.
-4. Запустить скомпилированный проект из командной строки: `java -jar C:\путь к папке\target\Product-0.0.1-SNAPSHOT.jar`
+4. Собрать проект: `mvn spring-boot:run`
+6. Запустить скомпилированный проект из командной строки: `java -jar C:\путь к папке\target\Product-0.0.1-SNAPSHOT.jar`
 
 
 ## Документация
