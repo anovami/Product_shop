@@ -9,7 +9,7 @@
 - **Оформление заказа**: Пользователь может сохранить заказ. Вывод всех заказов одного пользователя по id пользователя, вывод всех существующих заказов.
 
 ## Технологический стек:
-Spring Boot, Spring Data JPA, Hibernate, Liquibase, PostgreSQL, Spring MVC, Spring Test, Lombok, 
+Spring Boot, Spring Data JPA, Hibernate, Liquibase, PostgreSQL, Spring MVC, Spring Test, Lombok, SpringDoc openAPI
 
 
 ## Требования
