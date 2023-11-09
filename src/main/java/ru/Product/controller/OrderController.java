@@ -36,7 +36,6 @@ public class OrderController {
         return orderService.getAllOrders();
     }
 
-    // TODO сейчас не находит в БД продукты по UUID просто как пример, выпилить
     @PostMapping("/saveOrder")
     @Operation(summary = "Добавление заказа")
     public ResponseEntity<OrderSaveDto> createOrder(@RequestBody @Valid OrderSaveDto orderSaveDto) {

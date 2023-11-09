@@ -96,7 +96,7 @@ public class OrderServiceImpl implements OrderService {
         return orderDtoList;
     }
 
-    // TODO сейчас не находит в БД продукты по UUID просто как пример
+
     @Override
     public OrderSaveDto createOrder(OrderSaveDto orderSaveDto) {
         // Получаем список объектов Product по списку UUID из OrderSaveDto

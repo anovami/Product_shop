@@ -27,7 +27,6 @@ public class UserController {
         return userService.createUser(userCreateDto);
     }
 
-    //TODO реализация авторизации
     @Operation(summary = "Авторизация пользователя")
     @GetMapping("/login")
     UserDto login(@RequestParam("email") String email, @RequestParam String password) {

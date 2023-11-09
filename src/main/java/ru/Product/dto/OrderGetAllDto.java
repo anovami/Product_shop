@@ -20,7 +20,5 @@ public class OrderGetAllDto {
     private LocalDate dateTime;
     private BigDecimal totalPrice;
     private String status;
-
-    // TODO уточнить у заказчика, нужна ли модель юзера или только id отдать
     private UserDto user;
 }
