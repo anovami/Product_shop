@@ -68,16 +68,16 @@ public class SpringSecurityConfig {
     @Bean
     public SecurityFilterChain filterChain (HttpSecurity http) throws Exception {
         http.authorizeHttpRequests().requestMatchers("/**").hasRole("USER").and().formLogin();
-//        http.authorizeHttpRequests()
-//                .requestMatchers("/login")
-//                .permitAll()
-//                .and()
-//                .formLogin()
-//                .permitAll()
-//                .successHandler(successHandler)
-//                .and()
-//                .csrf()
-//                .disable();
+        http.authorizeHttpRequests()
+                .requestMatchers("/login")
+                .permitAll()
+                .and()
+                .formLogin()
+                .permitAll()
+                .successHandler(successHandler)
+                .and()
+                .csrf()
+                .disable();
         return http.build();
     }
     @Bean
